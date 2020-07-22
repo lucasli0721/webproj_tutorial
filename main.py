@@ -21,3 +21,19 @@ comm_loop:
 cs.close()
 """
 
+"""
+TODO: pseudo code for setting ucp server
+ss = socket.socket()
+ss.bind()
+inf_loop:
+    ss.recvfrom/ss.sendto()
+ss.close()
+"""
+
+"""
+TODO: pseudo code for setting ucp client
+cs = socket.socket()
+comm_loop:
+    cs.recvfrom/ss.sendto()
+cs.close()
+"""
